@@ -1,14 +1,14 @@
-@use "abstracts/functions";
-@use "abstracts/mixins";
-@use "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
 
-@use "base/animations";
-@use "base/base";
-@use "base/typography";
-@use "base/utilities";
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
 
-@use "components/button";
+@import "components/button";
 
-@use "layout/header";
+@import "layout/header";
 
-@use "pages/home";
+@import "pages/home";
