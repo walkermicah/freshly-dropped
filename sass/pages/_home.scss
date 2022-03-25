@@ -1,0 +1,17 @@
+.section-about {
+  padding: 7.5rem 0;
+
+  &--content {
+    @include flexCenter(row);
+    gap: 5rem;
+  }
+
+  &--text {
+    @include flexStart(column);
+    width: 50%;
+  }
+
+  &--images {
+    width: 50%;
+  }
+}

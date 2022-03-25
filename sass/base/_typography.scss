@@ -26,3 +26,36 @@ body {
     animation: moveFromRight 1s;
   }
 }
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    $color-dark,
+    $color-dark-med,
+    $color-dark
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.heading-tertiary {
+  font-size: $subheading-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $color-dark;
+}
+
+.paragraph {
+  font-size: $default-font-size;
+  line-height: 1.2;
+  color: $color-black;
+
+  &:not(last-child) {
+    margin-bottom: 3rem;
+  }
+}
