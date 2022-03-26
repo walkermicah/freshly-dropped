@@ -9,6 +9,7 @@
     position: absolute;
     z-index: 1;
     transform: all 0.2s;
+    outline-offset: 1rem;
 
     //tomatoes
     &--p1 {
@@ -32,6 +33,7 @@
       transform: scale(1.1) translateY(-2rem);
       box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
       z-index: 2;
+      outline: 0.5rem solid $color-medium;
     }
   }
 
