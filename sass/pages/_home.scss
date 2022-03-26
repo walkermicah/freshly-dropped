@@ -15,3 +15,11 @@
     width: 50%;
   }
 }
+
+.section-features {
+  padding: 20rem 2rem;
+  display: flex;
+  gap: 3rem;
+  background-image: url(/img/features-background.jpg);
+  background-size: cover;
+}
