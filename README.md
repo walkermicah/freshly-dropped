@@ -4,3 +4,5 @@ Image credits:
 All images were found on Unsplash.  
 Header image (strawberries): Jeremy Bezanger  
 About section images: Dan Meyers (fields), Christina Gillette (ducks), Elaine Casap (tomatoes)
+Feature section background (carrots): Jeremy Bezanger  
+Feature section icons: icons8
