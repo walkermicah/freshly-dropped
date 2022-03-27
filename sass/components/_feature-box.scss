@@ -1,10 +1,20 @@
 .feature-box {
-  background-color: $color-light;
+  background-color: $color-beige;
   width: 25%;
   padding: 2rem 1rem 7rem;
   text-align: center;
+  border-radius: 2px;
+  transition: transform 0.3s;
 
-  h3 {
+  &__heading {
     padding: 2rem;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+  }
+
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.03);
   }
 }
