@@ -1,5 +1,5 @@
 .section-about {
-  padding: 7.5rem 0;
+  padding: 10rem 0 15rem 0;
 
   &--content {
     @include flexCenter(row);
@@ -17,9 +17,10 @@
 }
 
 .section-features {
-  padding: 20rem 2rem;
+  padding: 30rem 2rem;
   display: flex;
   gap: 3rem;
-  background-image: url(/img/features-background.jpg);
+  background: url(/img/background-features.jpg) fixed;
+  clip-path: polygon(0 25%, 100% 0, 100% 75%, 0% 100%);
   background-size: cover;
 }
