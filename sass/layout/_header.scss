@@ -15,23 +15,13 @@
     background: url(../img/background-hero.jpg) fixed;
     background-size: cover;
     background-position: center;
-    clip-path: polygon(
-      0% 0%,
-      0% 100%,
-      20% 100%,
-      20% 20%,
-      80% 20%,
-      80% 80%,
-      20% 80%,
-      20% 100%,
-      100% 100%,
-      100% 0%
-    );
   }
 
   &__box {
-    max-width: 60%;
-    max-height: 70%;
+    width: 60%;
+    height: 70%;
+    background-color: $color-beige;
+    @include flexCenter(column);
   }
 
   &__logo {
