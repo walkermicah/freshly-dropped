@@ -20,7 +20,12 @@
   padding: 30rem 2rem;
   display: flex;
   gap: 3rem;
-  background: url(/img/background-features.jpg) fixed;
+  background: url(../img/background-features.jpg) fixed;
+  -webkit-clip-path: polygon(0 25%, 100% 0, 100% 75%, 0% 100%);
   clip-path: polygon(0 25%, 100% 0, 100% 75%, 0% 100%);
   background-size: cover;
+}
+
+.section-baskets {
+  padding: 8rem 10rem;
 }

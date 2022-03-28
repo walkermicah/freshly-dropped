@@ -1,0 +1,111 @@
+.baskets-box {
+  display: flex;
+  gap: 3rem;
+  width: 100%;
+}
+
+//FUNCTIONALITY
+.card {
+  width: 33%;
+  height: 50rem;
+  position: relative;
+
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+
+  &__side {
+    background-color: $color-light;
+    color: $color-dark;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+    height: 50rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+
+    transition: all 1s ease;
+
+    &--back {
+      transform: rotateY(180deg);
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+    text-align: center;
+    padding: 10rem;
+  }
+
+  //SIDE 1 STYLING
+  &__picture {
+    height: 18rem;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+
+    &--1 {
+      background-image: url(../img/basket-small.jpg);
+    }
+
+    &--2 {
+      background-image: url(../img/basket-medium.jpg);
+    }
+
+    &--3 {
+      background-image: url(../img/basket-large.jpg);
+    }
+  }
+
+  &__heading {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  &__details {
+    padding: 3rem;
+
+    & ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto;
+
+      & li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+
+        &:not(last-child) {
+          border-bottom: 1px solid $color-dark;
+        }
+      }
+    }
+  }
+
+  //SIDE 2 STYLING
+  &__price {
+    font-size: 6rem;
+    line-height: 1.2;
+  }
+
+  &__per-week {
+    font-size: 2rem;
+    margin-bottom: 8rem;
+  }
+
+  .btn {
+    padding: 1.5rem 3rem;
+  }
+}
