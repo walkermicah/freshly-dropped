@@ -1,0 +1,53 @@
+.review {
+  width: 75%;
+  box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
+  background-color: rgba($color-beige, 0.7);
+  border-radius: 3px;
+  padding: 3rem 6rem 2rem 9rem;
+  font-size: $default-font-size;
+  padding-left: 9rem;
+  transform: skewX(-12deg);
+
+  &__shape {
+    width: 10rem;
+    height: 10rem;
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    overflow: hidden;
+    transform: translateX(-3rem) skewX(12deg);
+  }
+
+  &__text {
+    transform: skewX(12deg);
+  }
+
+  &__img {
+    height: 100%;
+    transform: translateX(-2rem);
+    transition: all 0.5s;
+  }
+
+  &__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: $color-beige;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s;
+    backface-visibility: hidden;
+  }
+
+  &:hover &__caption {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+
+  &:hover &__img {
+    filter: blur(3px) brightness(80%);
+  }
+}
