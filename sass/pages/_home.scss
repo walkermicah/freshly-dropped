@@ -29,3 +29,13 @@
 .section-baskets {
   padding: 8rem 10rem;
 }
+
+.section-reviews {
+  padding: 5rem 0;
+  position: relative;
+}
+
+.review-box {
+  @include flexCenter(column);
+  gap: 5rem;
+}
