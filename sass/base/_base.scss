@@ -12,8 +12,5 @@ html {
 
 body {
   box-sizing: border-box;
-
-  &:not(:footer) {
-    padding: 3rem;
-  }
+  padding: 3rem;
 }
