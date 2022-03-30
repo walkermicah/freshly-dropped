@@ -1,0 +1,52 @@
+.footer {
+  background-color: $color-medium;
+  color: $color-beige;
+  font-size: $default-font-size;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  @include flexCenter(row);
+  gap: 15rem;
+
+  &__logo {
+    text-align: center;
+
+    &-img {
+      width: 7.5rem;
+      transition: transform 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      color: $color-beige;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    &:hover,
+    &:active {
+      color: $color-dark;
+      font-weight: 700;
+    }
+  }
+
+  &__item {
+    transition: transform, 0.2s;
+
+    &:hover,
+    &:active {
+      transform: scale(1.2);
+    }
+  }
+}
