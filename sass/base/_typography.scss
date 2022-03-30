@@ -7,7 +7,7 @@ body {
   padding: 3rem;
 }
 
-.heading-primary {
+.h1 {
   color: $color-dark;
   margin-bottom: 3rem;
   backface-visibility: hidden;
@@ -27,7 +27,7 @@ body {
   }
 }
 
-.heading-secondary {
+.h2 {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -43,12 +43,20 @@ body {
   color: transparent;
 }
 
-.heading-tertiary {
+.h3 {
   font-size: $subheading-font-size;
   font-weight: 700;
   text-transform: uppercase;
   color: $color-dark;
   line-height: 1.2;
+}
+
+.h4 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+  color: $color-dark;
 }
 
 .paragraph {
