@@ -16,7 +16,7 @@
   &__side {
     background-color: $color-light;
     color: $color-dark;
-    font-size: 1.5rem;
+    font-size: $default-font-size;
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
@@ -79,7 +79,7 @@
 
       & li {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: $default-font-size;
         padding: 1rem;
 
         &:not(last-child) {
@@ -93,12 +93,12 @@
 
   &__back--box {
     &-price {
-      font-size: 6rem;
+      font-size: $xl-heading-font-size;
       line-height: 1.2;
     }
 
     &-week {
-      font-size: 2rem;
+      font-size: $small-heading-font-size;
       margin-bottom: 8rem;
     }
   }
