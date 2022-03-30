@@ -3,19 +3,22 @@
   position: relative;
   width: 100%;
   @include flexCenter(column);
+  background: url(../img/background-hero.jpg) fixed;
+  background-size: cover;
+  background-position: center;
 
-  &::after {
-    z-index: -1;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: url(../img/background-hero.jpg) fixed;
-    background-size: cover;
-    background-position: center;
-  }
+  // &::after {
+  //   z-index: -1;
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   height: 100%;
+  //   width: 100%;
+  //   background: url(../img/background-hero.jpg) fixed;
+  //   background-size: cover;
+  //   background-position: center;
+  // }
 
   &__box {
     width: 60%;
