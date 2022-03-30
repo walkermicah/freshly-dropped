@@ -32,6 +32,8 @@
 
     &--back {
       transform: rotateY(180deg);
+      text-align: center;
+      padding: 10rem;
     }
   }
 
@@ -41,8 +43,6 @@
 
   &:hover &__side--back {
     transform: rotateY(0);
-    text-align: center;
-    padding: 10rem;
   }
 
   //SIDE 1 STYLING
@@ -68,14 +68,6 @@
       background-image: url(../img/basket-large.jpg);
     }
   }
-
-  // &__heading {
-  //   font-size: 2.8rem;
-  //   text-transform: uppercase;
-  //   text-align: center;
-  //   margin-top: 2rem;
-  //   color: $color-dark;
-  // }
 
   &__details {
     padding: 3rem;
