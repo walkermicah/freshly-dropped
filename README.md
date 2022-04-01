@@ -7,3 +7,6 @@ About section images: Dan Meyers (fields), Christina Gillette (ducks), Elaine Ca
 Feature section background (carrots): Jeremy Bezanger  
 Feature section icons: icons8
 Popular baskets section (cherry): Quaritsch Photography
+Book now pop-up: Fernando Andrade (pineapple)
+Sign up image (tomatoes): Jeremy Bezanger  
+Reviews section video: Vanessa Loring, found on Pexels
