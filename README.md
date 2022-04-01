@@ -1,4 +1,4 @@
-I created this page to practice techniques learned in Jonas Schmedtmann's Advanced CSS and SASS course.
+I created this page to practice techniques I learned while taking an advanced CSS and SASS course.
 
 Image credits:  
 All images were found on Unsplash.  
